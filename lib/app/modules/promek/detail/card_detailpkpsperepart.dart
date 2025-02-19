@@ -234,7 +234,7 @@ class _CardDetailPKBSperepartState extends State<CardDetailPKBSperepart> {
       String kodePkb, String photoType) async {
     final token = Publics.controller.getToken.value ?? ''; // Get the token
     final url = Uri.parse(
-        'https://api.realauto.co.id/api/mekanik/insert-photosparepart');
+        'https://api-vale.techthinkhub.com/api/mekanik/insert-photosparepart');
     final request = http.MultipartRequest('POST', url);
 
     request.headers['Authorization'] = 'Bearer $token';

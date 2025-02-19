@@ -58,7 +58,7 @@ HttpClient createHttpClient() {
 }
 
 class API {
-  static const _url = 'https://api.realauto.co.id';
+  static const _url = 'https://api-vale.techthinkhub.com';
   static const _baseUrl = '$_url/api';
   static const _getProfile = '$_baseUrl/mekanik/profile-karyawan';
   static const _getLogin = '$_baseUrl/mekanik/login';

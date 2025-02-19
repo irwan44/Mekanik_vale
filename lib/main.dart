@@ -156,7 +156,7 @@ class _MyAppState extends State<MyApp> {
     final token = Publics.controller.getToken.value;
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
-      title: "Mekanik RAW",
+      title: "Mekanik Vale",
       initialRoute: token.isEmpty ? AppPages.INITIAL : Routes.SPLASHCREEN,
       getPages: AppPages.routes,
       theme: ThemeData(

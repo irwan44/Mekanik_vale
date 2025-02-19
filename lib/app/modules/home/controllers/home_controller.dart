@@ -89,7 +89,7 @@ class HomeController extends GetxController {
       confirm: InkWell(
         onTap: () async {
           LaunchReview.launch(
-            androidAppId: "com.mekanik.row",
+            androidAppId: "com.bengkelly.mekanik.co.id",
             // iOSAppId: "585027354",
           );
           // await InAppUpdate.performImmediateUpdate();

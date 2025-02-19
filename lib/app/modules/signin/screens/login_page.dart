@@ -106,7 +106,7 @@ class _LoginPageState extends State<LoginPage> {
                           ? screenWidth * 0.2
                           : screenWidth * 0.5;
                       return Image.asset(
-                        'assets/logo_autobenz.png',
+                        'assets/logo_tech.png',
                         height: imageSize,
                         width: imageSize,
                       );
